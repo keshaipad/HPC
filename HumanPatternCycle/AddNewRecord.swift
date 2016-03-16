@@ -439,7 +439,7 @@ class AddNewRecord: UIViewController {
         
         // Запись в состояния
         let newState = State()
-        newState.name = nameStateInDB
+        newState.name = nameNewState
         try!uiRealm.write({ () -> Void in
             uiRealm.add(newState)
             

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C351371C99C1D7005A629B /* SwiftLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C351291C99C1D7005A629B /* SwiftLocation.swift */; };
+		52C351381C99C1D7005A629B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C3512A1C99C1D7005A629B /* Info.plist */; };
+		52C351391C99C1D7005A629B /* SwiftLocation.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 52C3512C1C99C1D7005A629B /* SwiftLocation.xcconfig */; };
+		52C3513A1C99C1D7005A629B /* SwiftLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C3512D1C99C1D7005A629B /* SwiftLocation-dummy.m */; };
+		52C3513B1C99C1D7005A629B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C351311C99C1D7005A629B /* Info.plist */; };
+		52C3513C1C99C1D7005A629B /* SwiftLocation.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 52C351331C99C1D7005A629B /* SwiftLocation.xcconfig */; };
+		52C3513D1C99C1D7005A629B /* SwiftLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C351341C99C1D7005A629B /* SwiftLocation-dummy.m */; };
+		52C3513F1C99CA6B005A629B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C3513E1C99CA6B005A629B /* Info.plist */; };
+		52C351431C99D062005A629B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52C351421C99D062005A629B /* Info.plist */; };
 		841365C01C779A5B0023FA16 /* DataBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841365BF1C779A5B0023FA16 /* DataBaseTableViewController.swift */; };
 		84565FFB1C90B5AC00E79116 /* NewPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84565FFA1C90B5AC00E79116 /* NewPopupViewController.swift */; };
 		8456600B1C90C13600E79116 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84565FFF1C90C13600E79116 /* AkiraTextField.swift */; };
@@ -39,18 +48,8 @@
 		846651C21C9498F100EF10F4 /* StateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846651C11C9498F100EF10F4 /* StateList.swift */; };
 		8466D01F1C82AE8E0021AD43 /* ReorderableGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466D01E1C82AE8E0021AD43 /* ReorderableGridView.swift */; };
 		846A5AB51C8D598B004249F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846A5AB41C8D598B004249F3 /* MapKit.framework */; };
-		846B4D5D1C7C3A23008D9905 /* SwiftLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B4D541C7C3A23008D9905 /* SwiftLocation.swift */; };
-		846B4D5E1C7C3A23008D9905 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846B4D551C7C3A23008D9905 /* Info.plist */; };
-		846B4D5F1C7C3A23008D9905 /* SwiftLocation.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 846B4D571C7C3A23008D9905 /* SwiftLocation.xcconfig */; };
-		846B4D601C7C3A23008D9905 /* SwiftLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 846B4D581C7C3A23008D9905 /* SwiftLocation-dummy.m */; };
 		846D733F1C902D0A00F27844 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D733E1C902D0A00F27844 /* QuartzCore.framework */; };
 		846D736F1C90484200F27844 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D736E1C90484200F27844 /* TimelineView.swift */; };
-		846D737D1C90487400F27844 /* JTSAnimatedGIFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D73721C90487400F27844 /* JTSAnimatedGIFUtility.m */; };
-		846D737E1C90487400F27844 /* JTSImageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D73741C90487400F27844 /* JTSImageInfo.m */; };
-		846D737F1C90487400F27844 /* JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D73761C90487400F27844 /* JTSImageViewController.m */; };
-		846D73801C90487400F27844 /* JTSSimpleImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D73781C90487400F27844 /* JTSSimpleImageDownloader.m */; };
-		846D73811C90487400F27844 /* UIApplication+JTSImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D737A1C90487400F27844 /* UIApplication+JTSImageViewController.m */; };
-		846D73821C90487400F27844 /* UIImage+JTSImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D737C1C90487400F27844 /* UIImage+JTSImageEffects.m */; };
 		846D73841C9048AE00F27844 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D73831C9048AE00F27844 /* PopUpViewController.swift */; };
 		846D73AC1C90697900F27844 /* 1A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846D739F1C90697900F27844 /* 1A.jpg */; };
 		846D73AD1C90697900F27844 /* 1N.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 846D73A01C90697900F27844 /* 1N.jpg */; };
@@ -132,6 +131,21 @@
 
 /* Begin PBXFileReference section */
 		40858AFA01296992B8B3E8C5 /* Pods-HumanPatternCycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanPatternCycle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumanPatternCycle/Pods-HumanPatternCycle.debug.xcconfig"; sourceTree = "<group>"; };
+		52C351291C99C1D7005A629B /* SwiftLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftLocation.swift; path = Pod/Classes/SwiftLocation.swift; sourceTree = "<group>"; };
+		52C3512A1C99C1D7005A629B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52C3512B1C99C1D7005A629B /* SwiftLocation.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftLocation.modulemap; sourceTree = "<group>"; };
+		52C3512C1C99C1D7005A629B /* SwiftLocation.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftLocation.xcconfig; sourceTree = "<group>"; };
+		52C3512D1C99C1D7005A629B /* SwiftLocation-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwiftLocation-dummy.m"; sourceTree = "<group>"; };
+		52C3512E1C99C1D7005A629B /* SwiftLocation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-prefix.pch"; sourceTree = "<group>"; };
+		52C3512F1C99C1D7005A629B /* SwiftLocation-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-umbrella.h"; sourceTree = "<group>"; };
+		52C351311C99C1D7005A629B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Target Support Files/SwiftLocation/Info.plist"; sourceTree = "<group>"; };
+		52C351321C99C1D7005A629B /* SwiftLocation.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = SwiftLocation.modulemap; path = "../Target Support Files/SwiftLocation/SwiftLocation.modulemap"; sourceTree = "<group>"; };
+		52C351331C99C1D7005A629B /* SwiftLocation.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = SwiftLocation.xcconfig; path = "../Target Support Files/SwiftLocation/SwiftLocation.xcconfig"; sourceTree = "<group>"; };
+		52C351341C99C1D7005A629B /* SwiftLocation-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SwiftLocation-dummy.m"; path = "../Target Support Files/SwiftLocation/SwiftLocation-dummy.m"; sourceTree = "<group>"; };
+		52C351351C99C1D7005A629B /* SwiftLocation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwiftLocation-prefix.pch"; path = "../Target Support Files/SwiftLocation/SwiftLocation-prefix.pch"; sourceTree = "<group>"; };
+		52C351361C99C1D7005A629B /* SwiftLocation-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwiftLocation-umbrella.h"; path = "../Target Support Files/SwiftLocation/SwiftLocation-umbrella.h"; sourceTree = "<group>"; };
+		52C3513E1C99CA6B005A629B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../HumanPattern/Info.plist; sourceTree = "<group>"; };
+		52C351421C99D062005A629B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../HumanPattern/HumanPatternCycle/Info.plist; sourceTree = "<group>"; };
 		81A946BEBE33289DC365BD6F /* Pods_HumanPatternCycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanPatternCycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841365BF1C779A5B0023FA16 /* DataBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseTableViewController.swift; sourceTree = "<group>"; };
 		84565FFA1C90B5AC00E79116 /* NewPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPopupViewController.swift; sourceTree = "<group>"; };
@@ -165,27 +179,8 @@
 		846651C11C9498F100EF10F4 /* StateList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateList.swift; sourceTree = "<group>"; };
 		8466D01E1C82AE8E0021AD43 /* ReorderableGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReorderableGridView.swift; path = ../../HumanPatternCycle/ReorderableGridView.swift; sourceTree = "<group>"; };
 		846A5AB41C8D598B004249F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		846B4D541C7C3A23008D9905 /* SwiftLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftLocation.swift; path = Pod/Classes/SwiftLocation.swift; sourceTree = "<group>"; };
-		846B4D551C7C3A23008D9905 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		846B4D561C7C3A23008D9905 /* SwiftLocation.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = SwiftLocation.modulemap; sourceTree = "<group>"; };
-		846B4D571C7C3A23008D9905 /* SwiftLocation.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SwiftLocation.xcconfig; sourceTree = "<group>"; };
-		846B4D581C7C3A23008D9905 /* SwiftLocation-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwiftLocation-dummy.m"; sourceTree = "<group>"; };
-		846B4D591C7C3A23008D9905 /* SwiftLocation-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-prefix.pch"; sourceTree = "<group>"; };
-		846B4D5A1C7C3A23008D9905 /* SwiftLocation-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftLocation-umbrella.h"; sourceTree = "<group>"; };
 		846D733E1C902D0A00F27844 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
 		846D736E1C90484200F27844 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimelineView.swift; path = ../../HumanPatternCycle/TimelineView.swift; sourceTree = "<group>"; };
-		846D73711C90487400F27844 /* JTSAnimatedGIFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSAnimatedGIFUtility.h; sourceTree = "<group>"; };
-		846D73721C90487400F27844 /* JTSAnimatedGIFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSAnimatedGIFUtility.m; sourceTree = "<group>"; };
-		846D73731C90487400F27844 /* JTSImageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageInfo.h; sourceTree = "<group>"; };
-		846D73741C90487400F27844 /* JTSImageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageInfo.m; sourceTree = "<group>"; };
-		846D73751C90487400F27844 /* JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSImageViewController.h; sourceTree = "<group>"; };
-		846D73761C90487400F27844 /* JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSImageViewController.m; sourceTree = "<group>"; };
-		846D73771C90487400F27844 /* JTSSimpleImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTSSimpleImageDownloader.h; sourceTree = "<group>"; };
-		846D73781C90487400F27844 /* JTSSimpleImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTSSimpleImageDownloader.m; sourceTree = "<group>"; };
-		846D73791C90487400F27844 /* UIApplication+JTSImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JTSImageViewController.h"; sourceTree = "<group>"; };
-		846D737A1C90487400F27844 /* UIApplication+JTSImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JTSImageViewController.m"; sourceTree = "<group>"; };
-		846D737B1C90487400F27844 /* UIImage+JTSImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTSImageEffects.h"; sourceTree = "<group>"; };
-		846D737C1C90487400F27844 /* UIImage+JTSImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTSImageEffects.m"; sourceTree = "<group>"; };
 		846D73831C9048AE00F27844 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		846D739F1C90697900F27844 /* 1A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1A.jpg; sourceTree = SOURCE_ROOT; };
 		846D73A01C90697900F27844 /* 1N.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1N.jpg; sourceTree = SOURCE_ROOT; };
@@ -305,6 +300,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		52C351301C99C1D7005A629B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C3512A1C99C1D7005A629B /* Info.plist */,
+				52C3512B1C99C1D7005A629B /* SwiftLocation.modulemap */,
+				52C3512C1C99C1D7005A629B /* SwiftLocation.xcconfig */,
+				52C3512D1C99C1D7005A629B /* SwiftLocation-dummy.m */,
+				52C3512E1C99C1D7005A629B /* SwiftLocation-prefix.pch */,
+				52C3512F1C99C1D7005A629B /* SwiftLocation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLocation";
+			sourceTree = "<group>";
+		};
 		84565FFE1C90C13600E79116 /* TextFieldEffects */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,56 +389,28 @@
 			name = "Not used";
 			sourceTree = "<group>";
 		};
-		846B4D5B1C7C3A23008D9905 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				846B4D551C7C3A23008D9905 /* Info.plist */,
-				846B4D561C7C3A23008D9905 /* SwiftLocation.modulemap */,
-				846B4D571C7C3A23008D9905 /* SwiftLocation.xcconfig */,
-				846B4D581C7C3A23008D9905 /* SwiftLocation-dummy.m */,
-				846B4D591C7C3A23008D9905 /* SwiftLocation-prefix.pch */,
-				846B4D5A1C7C3A23008D9905 /* SwiftLocation-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftLocation";
-			sourceTree = "<group>";
-		};
 		846B4D5C1C7C3A23008D9905 /* Lib's */ = {
 			isa = PBXGroup;
 			children = (
 				848E17161C98157A002ADF00 /* TagListView */,
 				84565FFE1C90C13600E79116 /* TextFieldEffects */,
-				846D73701C90486400F27844 /* JTSImageViewController */,
 				8489F6091C885626005CDD83 /* FSCalendar */,
 				8466D01E1C82AE8E0021AD43 /* ReorderableGridView.swift */,
 				846D73B91C906E8600F27844 /* PopupController.swift */,
 				846018581C86C9000099CF3F /* SCLAlertView.swift */,
 				846D736E1C90484200F27844 /* TimelineView.swift */,
-				846B4D541C7C3A23008D9905 /* SwiftLocation.swift */,
-				846B4D5B1C7C3A23008D9905 /* Support Files */,
+				52C351291C99C1D7005A629B /* SwiftLocation.swift */,
+				52C3513E1C99CA6B005A629B /* Info.plist */,
+				52C351301C99C1D7005A629B /* Support Files */,
+				52C351311C99C1D7005A629B /* Info.plist */,
+				52C351321C99C1D7005A629B /* SwiftLocation.modulemap */,
+				52C351331C99C1D7005A629B /* SwiftLocation.xcconfig */,
+				52C351341C99C1D7005A629B /* SwiftLocation-dummy.m */,
+				52C351351C99C1D7005A629B /* SwiftLocation-prefix.pch */,
+				52C351361C99C1D7005A629B /* SwiftLocation-umbrella.h */,
 			);
 			name = "Lib's";
 			path = ../Pods/SwiftLocation;
-			sourceTree = "<group>";
-		};
-		846D73701C90486400F27844 /* JTSImageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				846D73711C90487400F27844 /* JTSAnimatedGIFUtility.h */,
-				846D73721C90487400F27844 /* JTSAnimatedGIFUtility.m */,
-				846D73731C90487400F27844 /* JTSImageInfo.h */,
-				846D73741C90487400F27844 /* JTSImageInfo.m */,
-				846D73751C90487400F27844 /* JTSImageViewController.h */,
-				846D73761C90487400F27844 /* JTSImageViewController.m */,
-				846D73771C90487400F27844 /* JTSSimpleImageDownloader.h */,
-				846D73781C90487400F27844 /* JTSSimpleImageDownloader.m */,
-				846D73791C90487400F27844 /* UIApplication+JTSImageViewController.h */,
-				846D737A1C90487400F27844 /* UIApplication+JTSImageViewController.m */,
-				846D737B1C90487400F27844 /* UIImage+JTSImageEffects.h */,
-				846D737C1C90487400F27844 /* UIImage+JTSImageEffects.m */,
-			);
-			name = JTSImageViewController;
-			path = ../../HumanPatternCycle;
 			sourceTree = "<group>";
 		};
 		847326831C8FEB5D0069088B /* Footer Container */ = {
@@ -480,6 +461,7 @@
 				845CD53C1C91CC250069380D /* MoodImagesCollectionViewCell.swift */,
 				8489F6081C885497005CDD83 /* HumanPatternCycle-Bridging-Header.h */,
 				848E170A1C98152C002ADF00 /* Randoms.swift */,
+				52C351421C99D062005A629B /* Info.plist */,
 				845F43CA1C817ED8008980E7 /* images */,
 				846B4D5C1C7C3A23008D9905 /* Lib's */,
 			);
@@ -642,6 +624,8 @@
 				846D73B21C90697900F27844 /* all.jpg in Resources */,
 				846D73B61C90697900F27844 /* plus.ico in Resources */,
 				846D73AF1C90697900F27844 /* 2N.jpg in Resources */,
+				52C351431C99D062005A629B /* Info.plist in Resources */,
+				52C3513B1C99C1D7005A629B /* Info.plist in Resources */,
 				846D73B01C90697900F27844 /* 3A.jpg in Resources */,
 				846D73AE1C90697900F27844 /* 2A.jpg in Resources */,
 				845CD5331C915E870069380D /* moon.png in Resources */,
@@ -649,19 +633,21 @@
 				846D73AD1C90697900F27844 /* 1N.jpg in Resources */,
 				848E171A1C98157A002ADF00 /* Info.plist in Resources */,
 				848DE6EF1C7753BD0038F53B /* Mobile-app-introduction-template.jpg in Resources */,
+				52C3513F1C99CA6B005A629B /* Info.plist in Resources */,
+				52C3513C1C99C1D7005A629B /* SwiftLocation.xcconfig in Resources */,
 				848E171F1C9818C1002ADF00 /* micStop.png in Resources */,
 				845CD5371C91C3940069380D /* noImage.ico in Resources */,
 				8489F6331C885626005CDD83 /* Info.plist in Resources */,
 				846D73B71C90697900F27844 /* one.jpg in Resources */,
 				845CD5351C91624A0069380D /* barometr.png in Resources */,
+				52C351381C99C1D7005A629B /* Info.plist in Resources */,
 				84879F2A1C77028D00F1794A /* Assets.xcassets in Resources */,
 				846D73BC1C90940A00F27844 /* PopUpStory1.storyboard in Resources */,
-				846B4D5E1C7C3A23008D9905 /* Info.plist in Resources */,
 				846D73B81C90697900F27844 /* oneBG.jpg in Resources */,
 				847326821C8FE9590069088B /* Main.storyboard in Resources */,
-				846B4D5F1C7C3A23008D9905 /* SwiftLocation.xcconfig in Resources */,
 				846D73AC1C90697900F27844 /* 1A.jpg in Resources */,
 				846D73B41C90697900F27844 /* emoG.jpg in Resources */,
+				52C351391C99C1D7005A629B /* SwiftLocation.xcconfig in Resources */,
 				848E171B1C98157A002ADF00 /* TagListView.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,13 +711,13 @@
 				847732491C7EB96400F6F220 /* cellDataBaseViewController.swift in Sources */,
 				845CD5311C915B340069380D /* TimeLineContainerViewController.swift in Sources */,
 				84879F3E1C7714B300F1794A /* NormalMoodList.swift in Sources */,
-				846D73801C90487400F27844 /* JTSSimpleImageDownloader.m in Sources */,
 				8489F6351C885626005CDD83 /* NSString+FSExtension.m in Sources */,
 				8456600F1C90C13600E79116 /* JiroTextField.swift in Sources */,
 				84879F3B1C7706AD00F1794A /* PositiveMoodList.swift in Sources */,
 				848E170B1C98152C002ADF00 /* Randoms.swift in Sources */,
 				845660101C90C13600E79116 /* KaedeTextField.swift in Sources */,
 				841365C01C779A5B0023FA16 /* DataBaseTableViewController.swift in Sources */,
+				52C3513D1C99C1D7005A629B /* SwiftLocation-dummy.m in Sources */,
 				847460671C8777A300A0ED2F /* SearchAndCompare.swift in Sources */,
 				847732471C7EB7F500F6F220 /* cellDataBase.swift in Sources */,
 				84879F251C77028D00F1794A /* ViewController.swift in Sources */,
@@ -749,32 +735,28 @@
 				845660121C90C13600E79116 /* MinoruTextField.swift in Sources */,
 				846651C01C9498DC00EF10F4 /* State.swift in Sources */,
 				8456600B1C90C13600E79116 /* AkiraTextField.swift in Sources */,
-				846D73821C90487400F27844 /* UIImage+JTSImageEffects.m in Sources */,
 				84879F371C77041900F1794A /* TaskListsViewController.swift in Sources */,
 				848E17171C98157A002ADF00 /* CloseButton.swift in Sources */,
 				8489F6321C885626005CDD83 /* FSCalendarStickyHeader.m in Sources */,
 				845F43C31C8161F1008980E7 /* Empty.swift in Sources */,
 				845660141C90C13600E79116 /* YokoTextField.swift in Sources */,
-				846D737F1C90487400F27844 /* JTSImageViewController.m in Sources */,
 				846018591C86C9000099CF3F /* SCLAlertView.swift in Sources */,
 				8489F62A1C885626005CDD83 /* FSCalendar.m in Sources */,
 				8489F6281C885626005CDD83 /* CALayer+FSExtension.m in Sources */,
 				8489F6301C885626005CDD83 /* FSCalendarFlowLayout.m in Sources */,
+				52C3513A1C99C1D7005A629B /* SwiftLocation-dummy.m in Sources */,
 				845660111C90C13600E79116 /* MadokaTextField.swift in Sources */,
-				846D73811C90487400F27844 /* UIApplication+JTSImageViewController.m in Sources */,
 				848E171C1C98157A002ADF00 /* TagListView-dummy.m in Sources */,
-				846D737E1C90487400F27844 /* JTSImageInfo.m in Sources */,
 				84879F391C77069400F1794A /* PositiveMood.swift in Sources */,
 				847732451C7E8F4100F6F220 /* DBTableViewCell.swift in Sources */,
 				8489F6361C885626005CDD83 /* UIView+FSExtension.m in Sources */,
-				846B4D5D1C7C3A23008D9905 /* SwiftLocation.swift in Sources */,
 				84565FFB1C90B5AC00E79116 /* NewPopupViewController.swift in Sources */,
 				8489F62F1C885626005CDD83 /* FSCalendarEventIndicator.m in Sources */,
+				52C351371C99C1D7005A629B /* SwiftLocation.swift in Sources */,
 				8489F6311C885626005CDD83 /* FSCalendarHeader.m in Sources */,
 				845F43C91C816472008980E7 /* ContainerViewController.swift in Sources */,
 				848DE6F11C776F0A0038F53B /* GeneralList.swift in Sources */,
 				84629B531C8EC2D900829617 /* FooterContainerViewController.swift in Sources */,
-				846D737D1C90487400F27844 /* JTSAnimatedGIFUtility.m in Sources */,
 				8489F6291C885626005CDD83 /* FSCalendar+IBExtension.m in Sources */,
 				8466D01F1C82AE8E0021AD43 /* ReorderableGridView.swift in Sources */,
 				846D736F1C90484200F27844 /* TimelineView.swift in Sources */,
@@ -786,7 +768,6 @@
 				84879F441C7714DD00F1794A /* NegativeMood.swift in Sources */,
 				847326811C8FE1AA0069088B /* SecondFooterViewController.swift in Sources */,
 				845CD53D1C91CC250069380D /* MoodImagesCollectionViewCell.swift in Sources */,
-				846B4D601C7C3A23008D9905 /* SwiftLocation-dummy.m in Sources */,
 				845F43C71C8163BC008980E7 /* SecondViewController.swift in Sources */,
 				8489F62D1C885626005CDD83 /* FSCalendarCollectionView.m in Sources */,
 				8456600E1C90C13600E79116 /* IsaoTextField.swift in Sources */,
@@ -915,7 +896,8 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HumanPatternCycle/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PODS_FRAMEWORK_BUILD_PATH = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Qottie.HumanPatternCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/HumanPatternCycle/HumanPatternCycle-Bridging-Header.h";
@@ -934,7 +916,8 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = HumanPatternCycle/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				PODS_FRAMEWORK_BUILD_PATH = "";
 				PRODUCT_BUNDLE_IDENTIFIER = Qottie.HumanPatternCycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/HumanPatternCycle/HumanPatternCycle-Bridging-Header.h";
