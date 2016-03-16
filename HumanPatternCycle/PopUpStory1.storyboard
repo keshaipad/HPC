@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="rqg-Id-27H">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--New Popup View Controller-->
+        <scene sceneID="tjj-QY-YJ7">
+            <objects>
+                <viewController id="rqg-Id-27H" customClass="NewPopupViewController" customModule="HumanPatternCycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YKE-5s-6Kg"/>
+                        <viewControllerLayoutGuide type="bottom" id="DQN-6Q-s6Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xnN-U5-1Uk">
+                        <rect key="frame" x="0.0" y="0.0" width="670" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37k-dq-t7C">
+                                <rect key="frame" x="335" y="0.0" width="338" height="768"/>
+                                <connections>
+                                    <segue destination="l7q-mf-oh7" kind="embed" id="Yvc-vN-kgp"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tcn-nn-hdW">
+                                <rect key="frame" x="0.0" y="0.0" width="337" height="768"/>
+                                <connections>
+                                    <segue destination="udK-AS-B0m" kind="embed" id="TJa-Jg-bvM"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="670" height="768"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a7A-UE-KGn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="22"/>
+        </scene>
+        <!--Time Line Container View Controller-->
+        <scene sceneID="K9h-p9-UCs">
+            <objects>
+                <viewController id="l7q-mf-oh7" customClass="TimeLineContainerViewController" customModule="HumanPatternCycle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oZX-lb-64s"/>
+                        <viewControllerLayoutGuide type="bottom" id="9RE-ui-2X5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KJ5-TW-Xyz">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v8K-3f-ObM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="22"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4fE-dO-XJ6">
+            <objects>
+                <viewController id="udK-AS-B0m" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6qt-b6-pKd"/>
+                        <viewControllerLayoutGuide type="bottom" id="cR2-1p-eic"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lq6-HW-f0L">
+                        <rect key="frame" x="0.0" y="0.0" width="337" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total for all day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ys6-Kj-Y3Q">
+                                <rect key="frame" x="0.0" y="50" width="337" height="21"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moon.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Gj-ya-G0y">
+                                <rect key="frame" x="28" y="85" width="51" height="51"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="moon visible: 55%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh3-Lp-GPh">
+                                <rect key="frame" x="96" y="100" width="151" height="21"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pressure: 1010.5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzj-sL-yrd">
+                                <rect key="frame" x="96" y="167" width="151" height="21"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="barometr.png" translatesAutoresizingMaskIntoConstraints="NO" id="6bd-6M-qiU">
+                                <rect key="frame" x="28" y="151" width="50" height="53"/>
+                            </imageView>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ou2-qU-5Dt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613.5" y="912"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="barometr.png" width="800" height="848"/>
+        <image name="moon.png" width="200" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_HumanPatternCycle {
+  umbrella header "Pods-HumanPatternCycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

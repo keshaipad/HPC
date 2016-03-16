@@ -1,0 +1,45 @@
+PODS:
+  - AlertBar (0.1.2)
+  - ForecastIO (1.5.0)
+  - FSCalendar (1.8.2)
+  - PopupController (0.0.2)
+  - Realm (0.98.5):
+    - Realm/Headers (= 0.98.5)
+  - Realm/Headers (0.98.5)
+  - RealmSwift (0.98.5):
+    - Realm (= 0.98.5)
+  - SCLAlertView (0.5.1)
+  - SwiftLocation (0.2.0)
+  - SwiftOverlays (1.0)
+  - SwiftRandom (0.1.7)
+  - TagListView (0.5)
+  - YandexSpeechKit (2.5.0)
+
+DEPENDENCIES:
+  - AlertBar
+  - ForecastIO
+  - FSCalendar
+  - PopupController
+  - RealmSwift
+  - SCLAlertView
+  - SwiftLocation
+  - SwiftOverlays (~> 1.0)
+  - SwiftRandom
+  - TagListView
+  - YandexSpeechKit (= 2.5.0)
+
+SPEC CHECKSUMS:
+  AlertBar: 2d3a3533abdd1e3f66fbf291cb65a31a6d96c64d
+  ForecastIO: b6b3e26e7134acf8a05388cc513a9e7eb18846b7
+  FSCalendar: 5e348e1352f7513096812e4023e39b64b856bb7e
+  PopupController: b4b5f680926a6543355ada480d5f5067c10ea6e0
+  Realm: db08379969e45cea2edd1c3c0a090fe9e22d2d2f
+  RealmSwift: cb11ad1c35e15dc982f2dbf5afe2a3124193a358
+  SCLAlertView: 3ac39a863d3e10fc165662b1228b03402297aea9
+  SwiftLocation: ea78ae4a822581bde7379d98c8513273723c8840
+  SwiftOverlays: 6a47bab3ed2784c378f07b275269f9e8231526e6
+  SwiftRandom: a03b68cbcda1b03d0fef5a1b87296f9500b6eac3
+  TagListView: d9e6f0f30eca6a84138669f8449b89df068e6573
+  YandexSpeechKit: 4c0ee53139175bebef965dfa858044dc7c14b0b9
+
+COCOAPODS: 0.39.0
